@@ -1,0 +1,77 @@
+body {background: #00ccff;
+    margin: 20px;
+}
+.pageHeader {background: white;
+    padding:10px;}
+.nadpis{margin:10px 10px;
+    padding:10px;
+    border: 2px dashed #3399ff;
+    background: white url("logo.jpg") no-repeat;
+    color: transparent;
+}
+h2 {display: none;}
+a {color:#3399ff;}
+a:visited {color:#3399ff;}
+.menu {display: inline-block;
+}
+.menu a {background: white;
+    border: 4px groove /*outset*/ #cccccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.menu a:hover {border: 4px ridge/*inset*/ #cccccc;}
+.skryt {display: none;}
+.menu2 {overflow: auto;
+    display: block;
+    clear: none;
+}
+.menu2 p {display:block;}
+.main {background:white url("mrizka.jpg") repeat scroll;
+    min-height: 20em;
+    padding: 10pt;
+}
+.main > div { width: 45%;
+    /*float: left;*/
+    margin: 10px;
+}
+.zaplata {margin: 5px;
+    padding:5px;
+    border: 1px dashed #60c6ff;
+    background: white;
+    /*width: 45%;*/
+    float: left;
+}
+.zaplata div { width: auto;
+    float:none;
+}
+h3 {/*color: #3399ff;*/
+    text-decoration: underline;
+}
+
+/* adresa v kontaktech */
+.adresa div { display: inline-block;
+    vertical-align: top;
+}
+
+/* galeie s obrázky natvrdo v tabulce */
+.main-galerie { background:white url("mrizka.jpg") repeat scroll;
+    min-height: 20em;
+    padding: 10pt;
+}
+.main-galerie > div { width: 97%;
+    /*float: left;*/
+    margin: 10px;
+}
+.galerie { margin: 5px;
+    padding:5px;
+    border: 1px dashed #60c6ff;
+    background: white;
+}
+table { border-collapse: separate;
+    border-spacing: 10px;
+}    
+td { border: 1px dashed #60c6ff;
+    text-align: center;
+}
